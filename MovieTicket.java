@@ -28,7 +28,7 @@ class MovieTicket {
     }
 
     public static void main(String[] args) {
-        MovieTicket ticket1 = new MovieTicket("Avengers", 24, 150.00);
+        MovieTicket ticket1 = new MovieTicket("Avengers", 24, 250.00);
         System.out.println("Ticket Details Before Booking:");
         ticket1.displayTicketDetails();
 
