@@ -16,7 +16,6 @@ class PalindromeChecker {
         }
         return true;
     }
-
     public void displayResult() {
         if (isPalindrome()) {
             System.out.println("\"" + text + "\" is a palindrome.");
@@ -24,7 +23,6 @@ class PalindromeChecker {
             System.out.println("\"" + text + "\" is not a palindrome.");
         }
     }
-
     public static void main(String[] args) {
         PalindromeChecker checker1 = new PalindromeChecker("naman");
         checker1.displayResult();
