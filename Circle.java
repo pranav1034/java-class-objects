@@ -19,7 +19,7 @@ public class Circle {
 
     public static void main(String[] args) {
         Circle circle1=new Circle(14);
-        Circle circle2=new Circle(11);
+        Circle circle2=new Circle(12);
         System.out.println("The details of circle1 is: ");
         circle1.displayDetails();
         System.out.println("The details of circle2 is: ");
